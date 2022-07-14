@@ -23,6 +23,7 @@ public class RangedEnemy : MonoBehaviour
     [SerializeField] private AudioClip fireballSound;
 
     //References
+    private Health playerHealth;
     private Animator anim;
     private EnemyPatrol enemyPatrol;
 
@@ -39,7 +40,7 @@ public class RangedEnemy : MonoBehaviour
         //Attack only when player in sight?
         if (PlayerInSight())
         {
-            if (cooldownTimer >= attackCooldown)
+            if (cooldownTimer >= attackCooldown )
             {
                 cooldownTimer = 0;
                 anim.SetTrigger("rangedAttack");
