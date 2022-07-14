@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -13,12 +14,12 @@ TagManager:
   - 
   - Water
   - UI
+  - 
+  - 
   - Ground
   - Wall
   - Player
   - Enemy
-  - 
-  - 
   - 
   - 
   - 
@@ -44,14 +45,14 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 3063070903
+    uniqueID: 2233872901
     locked: 0
   - name: Foreground
-    uniqueID: 1348508103
+    uniqueID: 2519254405
     locked: 0
   - name: Player
-    uniqueID: 2242088531
+    uniqueID: 960489153
     locked: 0
   - name: Ground
-    uniqueID: 1662726479
+    uniqueID: 2649148703
     locked: 0
